@@ -26,7 +26,7 @@ Open the xml file and import to NfeReader:
 
 ```ruby
 file = File.open('sample-nfe.xml')
-nfe = NfeReader::Base.read(file)
+nfe = NfeReader::Nfe.new(file)
 ```
 
 You can access class attributes:
