@@ -20,7 +20,7 @@ module NfeReader
     #
     def initialize(attrs = {})
       @number = attrs[:nItem]
-      @information = attrs[:infAdProd]
+      @inf = attrs[:infAdProd]
       
       if attrs[:prod]
         @code = attrs[:prod][:cProd]
